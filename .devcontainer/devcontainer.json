@@ -1,0 +1,17 @@
+{
+	"name": "pwa_barcode_camera-example",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:24-trixie",
+	"mounts": [
+		"source=${localEnv:HOME}/.agent/codex/.codex,target=/home/node/.codex,type=bind,consistency=cached"
+	],
+	"features": {
+		"ghcr.io/devcontainers/features/python:1.8.0": {}
+	},
+	"postStartCommand": ".devcontainer/postStartCommand.sh",
+	"forwardPorts": [5180],
+	"customizations": {
+		"jetbrains": {
+			"plugins": ["com.github.biomejs.intellijbiome"]
+		}
+	}
+}

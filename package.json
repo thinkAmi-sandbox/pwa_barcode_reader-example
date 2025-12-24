@@ -1,0 +1,19 @@
+{
+	"name": "barcode_camera",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc -p tsconfig.json",
+		"format": "biome check --write .",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "The Unlicense",
+	"type": "commonjs",
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.10",
+		"typescript": "^5.9.3"
+	}
+}
